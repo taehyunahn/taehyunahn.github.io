@@ -19,7 +19,7 @@ title: Taehy # 메인 제목을 본인의 블로그 제목으로 변경
 tagline: 개발 블로그 # 부제목 변경
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Taehy의 개발 블로그
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -94,7 +94,7 @@ theme_mode: # [light | dark]
 # will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-cdn: "https://chirpy-img.netlify.app"
+cdn:
 
 # the avatar on sidebar, support local or CORS resources
 avatar: "/commons/avatar.jpg"
@@ -207,12 +207,10 @@ compress_html:
 exclude:
   - "*.gem"
   - "*.gemspec"
-  - docs
-  - tools
   - README.md
-  - LICENSE
   - "*.config.js"
   - package*.json
+  - node_modules
 
 jekyll-archives:
   enabled: [categories, tags]
