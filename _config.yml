@@ -97,7 +97,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/commons/avatar.jpg"
+avatar: # 프로필 이미지를 넣으려면 assets/img/avatar.jpg 에 파일을 추가하고 "/assets/img/avatar.jpg" 로 설정
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
